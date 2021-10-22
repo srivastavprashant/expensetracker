@@ -1,0 +1,42 @@
+input {
+  border-radius: 20px;
+  height:5vh;
+}
+label{margin-left:2%;
+    margin-bottom:0.5%;
+    color:white;
+    
+}
+.expenseform__controls{
+  height: 40vh;
+  background-color: rgba(34, 26, 58, 0.699);
+  margin-bottom: 3%;
+  display:flex;
+  border-radius:20px;
+  flex-flow:row wrap;
+  padding:5%;
+  box-shadow:2px 2px 110px 5px rgba(204, 189, 231, 0.74);
+  
+}
+.expenseform__control{
+    flex-basis:45%; 
+    font-size: 1.4rem;
+    display:flex;
+    flex-flow:column wrap;
+    margin-right:5%;
+}
+.expenseform__button{
+ margin-top:1.5%;
+ flex-basis:50%;
+ 
+
+ 
+}
+.expfbutton{
+    width:25%;
+    height:100%;
+    background-color:rgb(97, 16, 148);
+    border:none;
+    border-radius: 10px;
+    color:white;
+}

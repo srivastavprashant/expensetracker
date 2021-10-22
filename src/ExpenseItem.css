@@ -1,0 +1,53 @@
+*{  
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.expense-item{
+    border:1px solid grey;
+    display:flex;
+    border-radius:1rem;
+    background-color:grey;
+    height:15vh;
+    margin-top:2vh;
+    padding:5px;
+
+}
+.expense-item__date{
+    flex-basis:10%;
+    display:flex;
+    margin-left:1%;
+    align-items: center;
+    justify-content:center;
+    background-color:rgb(51, 49, 49);
+    border:1px solid white;
+    flex-direction: column;
+    border-radius: 1rem;
+    padding:1rem;
+    
+
+}
+.date{
+    margin-left:1rem;
+    width:100%;
+    text-align:center;
+    color:white;
+}
+.expense-item__title{ color:white;
+    flex-basis:25%;
+    display:flex;
+    margin-left:1%;
+    align-items: center;
+}
+.expense-item__expense{color:white;
+    background-color:rgb(97, 16, 148);
+    flex-basis:20%;
+    margin:0.4rem;
+    margin-left:55%;
+    border:1px solid white;
+    border-radius: 1rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
